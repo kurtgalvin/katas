@@ -1,5 +1,5 @@
 let sumLargestNumbers = function(data) {
-  data.sort(function(a, b){return a-b})
+  data.sort(function(a, b){return a - b})
   return data[data.length - 1] + data[data.length - 2]
 };
 
